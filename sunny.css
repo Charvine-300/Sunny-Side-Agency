@@ -1,0 +1,82 @@
+@media only screen and (max-width: 413px) {
+    body {
+        margin: 0px;
+        background-color: #f5f5f5;
+    }
+
+    #menuflex {
+        display: flex;
+        flex-wrap: wrap;
+        /*overflow: hidden;
+        max-height: ;*/
+        margin-top: 40px;
+        position: absolute;
+        flex-direction: column;
+    }
+
+
+
+
+
+    /*==========  ID Rules  ==========*/
+    #menu {
+        width: 24px;
+        height: 18px;
+        float: right;
+        margin-left: 320px;
+        position: absolute;
+    }
+
+    .drop {
+        width: 332px;
+        height: 300px;
+        margin-top: 70px;
+        margin-left: 20px;
+        position: absolute;
+        border: solid 1px #fff;
+        background-color: #ffffff;
+    }
+
+
+
+
+    /*==========  CLass Rules  ==========*/
+    .logo {
+        width: 124px;
+        height: 24px;
+        margin-top: 40px;
+        margin-left: 20px;
+        position: absolute;
+    }
+
+    .triangle {
+        margin: 20px 0px 30px 314px;
+        border: solid 30px #ffffff;
+        border-top: solid 20px  transparent;
+        border-left: solid 20px  transparent;
+        border-right: solid  20px  transparent;
+    }
+    
+
+   
+
+    /*==========  Element Rules  ==========*/
+    header {
+       width: 375px;
+       height: 550px;
+       margin: 0px;
+       background-color: yellow;
+    }
+
+    img {
+        width: 375px;
+        height: 550px;
+    }
+
+
+
+    /*==========  Animation and Pseudo Rules  ==========*/
+    #menu:hover {
+        cursor: pointer;
+    }
+}
