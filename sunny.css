@@ -62,14 +62,14 @@
 
     /*==========  Element Rules  ==========*/
     header {
-       width: fit-content;
+       width: 1000px;
        height: 550px;
        margin: 0px;
        background-color: yellow;
     }
 
     img {
-        width: 375px;
+        width: 1000px;
         height: 550px;
     }
 
