@@ -1,3 +1,8 @@
+:root {
+    --o-par-font-family: 'Segoe UI';
+    --o-bar-font-family: 'Trebuchet MS';
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         margin: 0px;
@@ -5,13 +10,15 @@
     }
 
     #menuflex {
+        height: 373px;
         display: flex;
         flex-wrap: wrap;
-        /*overflow: hidden;
-        max-height: ;*/
+        overflow: hidden;
+        max-height: 18px;
         margin-top: 40px;
         position: absolute;
-        flex-direction: column;
+        flex-direction: row;
+        transition: all 0.5s ease-in-out;
     }
 
 
@@ -27,6 +34,60 @@
         position: absolute;
     }
 
+
+
+
+
+    /*==========  CLass Rules  ==========*/
+    .others {
+        height: 300px;
+    }
+
+    .header {
+        width: 375px;
+        height: 400px;
+       position: absolute;
+        margin: 130px 20px 20px 0px;
+    }
+
+    .line {
+        width: 5px;
+        height: 120px;
+        margin-left: 185px;
+        position: absolute;
+        background-color: #ffffff;
+    }
+
+    .arrowhead {
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+        position: absolute;
+        border: 5px solid #fff;
+        transform: rotate(135deg);
+        margin: 95px 0px 0px 175px;
+        background-color: transparent;
+        border-left: transparent;
+        border-bottom: transparent;
+    }
+
+    .list {
+        width: 150px;
+        height: 230px;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+    }
+
+    .logo {
+        width: fit-content;
+        height: 24px;
+        margin-top: 40px;
+        margin-left: 20px;
+        position: absolute;
+    }
+
     .drop {
         width: 332px;
         height: 300px;
@@ -37,19 +98,9 @@
         background-color: #ffffff;
     }
 
-
-
-
-    /*==========  CLass Rules  ==========*/
-    .logo {
-        width: fit-content;
-        height: 24px;
-        margin-top: 40px;
-        margin-left: 20px;
-        position: absolute;
-    }
-
     .triangle {
+        width: 0px;
+        height: 0px;
         margin: 20px 0px 30px 314px;
         border: solid 30px #ffffff;
         border-top: solid 20px  transparent;
@@ -61,22 +112,72 @@
    
 
     /*==========  Element Rules  ==========*/
-    header {
-       width: fit-content;
-       height: 550px;
-       margin: 0px;
-       background-color: yellow;
-    }
-
     img {
         width: 375px;
         height: 550px;
     }
 
+    section {
+        margin: 0px;
+        height: 3000px;
+        width: fit-content;
+    }
+
+    header {
+       width: fit-content;
+       height: 550px;
+       margin: 0px;
+       background-color: #ffff00;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 800;
+        color: #ffffff;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+        font-family: var(--o-bar-font-family);
+    }
+
+    button {
+        width: 150px;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 50px;
+        border: transparent;
+        background-color: #f8991d;
+        font-family: var(--o-par-font-family);
+    }
+
+    .list ul {
+        padding: 0px;
+        margin-top: 40px;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    .list ul li {
+        margin-bottom: 20px;
+    }
+
+    .list ul li a {
+        font-size: 25px;
+        color: #808080;
+        font-weight:300;
+        font-family: var(--o-par-font-family);
+    }
+
+
 
 
     /*==========  Animation and Pseudo Rules  ==========*/
     #menu:hover {
+        cursor: pointer;
+    }
+
+    li:hover {
         cursor: pointer;
     }
 }
