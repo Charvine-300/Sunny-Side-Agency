@@ -1,7 +1,4 @@
-@media only screen and (device-width: 375px) 
-                   and (device-width: 667px)
-                   and (width: 375px)
-                   and (height: 559px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
     body {
         margin: 0px;
         background-color: #f5f5f5;
