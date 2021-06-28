@@ -14,7 +14,26 @@ h1, h2, p {
         background-color: #f5f5f5;
     }
 
+    #contentflex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #picflex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #endflex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
     #menuflex {
+        width: 100%;
         height: 373px;
         display: flex;
         flex-wrap: wrap;
@@ -32,7 +51,7 @@ h1, h2, p {
 
     /*==========  ID Rules  ==========*/
     #header {
-        width: 375px;
+        width: 100%;
         height: 550px;
     }
 
@@ -52,13 +71,55 @@ h1, h2, p {
     .bane {
         height: 600px;
     }
+
+    .clientele {
+        width: 100%;
+    }
+
+    .socials {
+        width: 20px;
+        height: 20px;
+    }
+
+    .boss {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .clients {
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 70px;
+    }
+
+    .photos {
+        width: 50%;
+        height: 50%;
+    }
+
+    .arrows {
+        width: 40px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexerdisc {
+        width: 100%;
+    }
+
     .others {
+        width: 100%;
         margin: 0px;
         height: 300px;
     }
 
     .inner {
-        width: 375px;
+        width: 100%;
         height: 300px;
         font-size: 0px;
         margin-top: 290px;
@@ -72,37 +133,37 @@ h1, h2, p {
         font-size: 20px;
         font-weight: 600;
         color: #585757;
-        margin-left: 119px;
+        margin: 20px auto 40px auto;
         font-family: var(--o-bar-font-family);
         background: linear-gradient(180deg, #ffffff 60%,  #ffff00 0%);
     }
 
     .header {
-        width: 375px;
+        width: 100%;
         height: 400px;
-       position: absolute;
+        position: absolute;
         margin: 130px 20px 20px 0px;
     }
 
     .line {
-        width: 5px;
+        width: 4px;
         height: 120px;
-        margin-left: 185px;
+        margin-left: 17px;
         position: absolute;
         background-color: #ffffff;
     }
 
     .arrowhead {
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
         border-radius: 5px;
         position: absolute;
         border: 5px solid #fff;
-        transform: rotate(135deg);
-        margin: 95px 0px 0px 175px;
-        background-color: transparent;
         border-left: transparent;
+        transform: rotate(135deg);
         border-bottom: transparent;
+        margin: 90px 0px 0px 4px;
+        background-color: transparent;
     }
 
     .list {
@@ -115,9 +176,8 @@ h1, h2, p {
     }
 
     .logo {
-        width: fit-content;
+        width: 124px;
         height: 24px;
-        margin-top: 40px;
         margin-left: 20px;
         position: absolute;
     }
@@ -147,28 +207,27 @@ h1, h2, p {
 
     /*==========  Element Rules  ==========*/
     img {
-        width: 375px;
+        width: 100%;
         height: 600px;
     }
 
     section {
+        width: 100%;
         margin: 0px;
-        height: 750px;
+        height: 100%;
         font-size: 0px;
-        width: fit-content;
     }
 
     header {
-       width: fit-content;
-       height: 550px;
        margin: 0px;
-       background-color: #ffff00;
+       width: 100%;
+       height: 550px;
     }
 
     article {
         margin: 0px;
-        width: 375px;
-        height: 450px;
+        width: 100%;
+        height: 100%;
         background-color: #ffffff;
     }
 
@@ -177,7 +236,7 @@ h1, h2, p {
         font-weight: 800;
         color: #ffffff;
         text-align: center;
-        margin: 20px 0px 20px 0px;
+        margin: 20px auto 20px auto;
         font-family: var(--o-bar-font-family);
     }
 
@@ -202,9 +261,10 @@ h1, h2, p {
     button {
         width: 150px;
         height: 50px;
+        display: block;
         font-size: 25px;
-        font-weight: 500;
         cursor: pointer;
+        font-weight: 500;
         border-radius: 50px;
         border: transparent;
         background-color: #f8991d;
@@ -219,13 +279,31 @@ h1, h2, p {
     }
 
     .list ul li {
+        margin-right: 0px;
         margin-bottom: 20px;
     }
 
     .list ul li a {
         font-size: 25px;
         color: #808080;
-        font-weight:300;
+        font-weight: 300;
+        font-family: var(--o-par-font-family);
+    }
+
+    ul {
+        padding: 0px;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    ul li {
+        margin-right: 40px;
+        display: inline-block;
+    }
+
+    ul li a {
+        font-size: 20px;
+        font-weight: 600;
         font-family: var(--o-par-font-family);
     }
 
