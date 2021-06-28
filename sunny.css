@@ -3,6 +3,11 @@
     --o-bar-font-family: 'Trebuchet MS';
 }
 
+h1, h2, p {
+    margin: 0px;
+    padding: 0px;
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         margin: 0px;
@@ -26,6 +31,11 @@
 
 
     /*==========  ID Rules  ==========*/
+    #header {
+        width: 375px;
+        height: 550px;
+    }
+
     #menu {
         width: 24px;
         height: 18px;
@@ -39,8 +49,32 @@
 
 
     /*==========  CLass Rules  ==========*/
+    .bane {
+        height: 600px;
+    }
     .others {
+        margin: 0px;
         height: 300px;
+    }
+
+    .inner {
+        width: 375px;
+        height: 300px;
+        font-size: 0px;
+        margin-top: 290px;
+        position: absolute;
+        background-color: transparent;
+    }
+
+    .learn {
+        width: 125px;
+        height: 25px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #585757;
+        margin-left: 119px;
+        font-family: var(--o-bar-font-family);
+        background: linear-gradient(180deg, #ffffff 60%,  #ffff00 0%);
     }
 
     .header {
@@ -114,12 +148,13 @@
     /*==========  Element Rules  ==========*/
     img {
         width: 375px;
-        height: 550px;
+        height: 600px;
     }
 
     section {
         margin: 0px;
-        height: 3000px;
+        height: 750px;
+        font-size: 0px;
         width: fit-content;
     }
 
@@ -130,6 +165,13 @@
        background-color: #ffff00;
     }
 
+    article {
+        margin: 0px;
+        width: 375px;
+        height: 450px;
+        background-color: #ffffff;
+    }
+
     h1 {
         font-size: 50px;
         font-weight: 800;
@@ -137,6 +179,24 @@
         text-align: center;
         margin: 20px 0px 20px 0px;
         font-family: var(--o-bar-font-family);
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #585757;
+        text-align: center;
+        padding: 60px 30px 0px 30px;
+        font-family: var(--o-bar-font-family);
+    }
+
+    p {
+        padding: 30px;
+        font-size: 20px;
+        font-weight: 300;
+        color: #808080;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     button {
