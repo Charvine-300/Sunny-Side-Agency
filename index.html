@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="sunny.css"/>
         <link rel="icon" href="images/Charvine.ico"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" media="(min-width: 1024px)" href="sunny2.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
@@ -44,62 +45,71 @@
 
 
         <div id="contentflex">
-            <section> 
-                <img src="images/mobile/image-transform.jpg" class="others"/>
-                <article class="note">
-                    <h2> Transform your brand </h2>
-                    <p>
-                        We are a full-service agency specialized in helping 
-                        brands grow fast. Engage your clients through compelling
-                        visuals that do most of the marketing for you.
-                        <button class="learn"> Learn More </button>
-                    </p>   
-                </article>
-            </section>
+            <img src="images/mobile/image-transform.jpg" class="others" id="one"/>
+            <div class="bayern"> 
+               <section>
+                    <article>
+                        <h2> Transform your brand </h2>
+                        <p>
+                            We are a full-service agency specialized in helping 
+                            brands grow fast. Engage your clients through compelling
+                            visuals that do most of the marketing for you.
+                        </p> 
+                        <button class="learn"> Learn More </button>  
+                    </article>
+               </section>
+            </div>
+            
+            <div id="painflex" style="height: 100%;">
+                <img src="images/mobile/image-stand-out.jpg" class="others" id="two"/>
+                <div class="bayern">
+                    <section>
+                        <article>
+                            <h2> Stand out to the right audience </h2>
+                            <p> 
+                                Using a collaborative formula of designers, researchers,
+                                photographers, videographers and copywriters, we'll build
+                                and extend your brand in digital places.
+                            </p>
+                            <button class="learn" style="background: linear-gradient(180deg, #ffffff 60%, #fc9e7d 0%);">
+                                Learn More
+                            </button>
+                        </article>
+                    </section>
+                </div>
+            </div>
     
-            <section> 
-                <img src="images/mobile//image-stand-out.jpg" class="others"/>
-                <article class="note">
-                    <h2> Stand out to the right audience </h2>
-                    <p> 
-                        Using a collaborative formula of designers, researchers,
-                        photographers, videographers and copywriters, we'll build
-                        and extend your brand in digital places.
-                        <button class="learn" style="background: linear-gradient(180deg, #ffffff 60%, #fc9e7d 0%);">
-                            Learn More
-                        </button>
-                    </p>
-                </article>
-            </section>
+            <div class="bayern">
+                <section class="bane">
+                    <article class="inner">
+                        <h2 style="color: #025c5c;"> Graphic Design </h2>
+                        <p style="color: #025c5c;">
+                            Great design makes you memorable. We deliver artwork that 
+                            underscores your brand message and captures potential clients'
+                            attention.
+                        </p>
+                    </article>
+                    <img src="images/mobile/image-graphic-design.jpg" id="three"/>
+                </section>
+            </div>
     
-            <section class="bane">
-                <article class="inner">
-                    <h2 style="color: #025c5c;"> Graphic Design </h2>
-                    <p style="color: #025c5c;">
-                        Great design makes you memorable. We deliver artwork that 
-                        underscores your brand message and captures potential clients'
-                        attention.
-                    </p>
-                </article>
-                <img src="images/mobile/image-graphic-design.jpg"/>
-            </section>
-    
-            <section class="bane">
-                <article class="inner">
-                    <h2 style="color: #19536b;"> Photography </h2>
-                    <p style="color: #19536b;">
-                        Increase your credibility by getting the most stunning, high-quality
-                        photos that improve your business image.
-                    </p>
-                </article>
-                <img src="images/mobile/image-photography.jpg"/>
-            </section>
+            <div class="bayern">
+                <section class="bane">
+                    <article class="inner">
+                        <h2 style="color: #19536b;"> Photography </h2>
+                        <p style="color: #19536b;">
+                            Increase your credibility by getting the most stunning, high-quality
+                            photos that improve your business image. This is guaranteed.
+                        </p>
+                    </article>
+                    <img src="images/mobile/image-photography.jpg" id="four"/>
+                </section>
+            </div>
         </div>
 
         <article>
-            <div>
-                <h2 style="color: #808080; padding-bottom: 50px;"> Client Testimonials </h2>
-
+            <h2 style="color: #808080; padding-top: 50px; padding-bottom: 50px;"> Client Testimonials </h2>
+            <div id="commentflex">
                 <div class="clientele"> 
                     <img src="images/image-emily.jpg" class="clients"/>
                     <p style="color: #383737;">
@@ -151,16 +161,16 @@
             </div>
         </article>
 
-        <article>
+        <article style="padding: 0px;">
             <div id="picflex">
-                <img src="images/mobile/image-gallery-milkbottles.jpg" class="photos"/>
-                <img src="images/mobile/image-gallery-orange.jpg" class="photos"/>
-                <img src="images/mobile/image-gallery-sugar-cubes.jpg" class="photos"/>
-                <img src="images/mobile/image-gallery-cone.jpg" class="photos"/>
+                <img src="images/mobile/image-gallery-milkbottles.jpg" class="photos" id="five"/>
+                <img src="images/mobile/image-gallery-orange.jpg" class="photos" id="six"/>
+                <img src="images/mobile/image-gallery-sugar-cubes.jpg" class="photos" id="seven"/>
+                <img src="images/mobile/image-gallery-cone.jpg" class="photos" id="eight"/>
             </div>
         </article>
 
-        <article>
+        <article style="padding: 0px;">
             <div style="background-color: #74e4cd; width: 100%; height: 100%; padding-top: 40px;">
                 <div id="endflex">
                     <div style="width: 135px; height: 30px; margin-left: auto; margin-right: auto; margin-bottom: 20px;">

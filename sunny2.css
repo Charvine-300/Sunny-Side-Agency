@@ -1,0 +1,197 @@
+body {
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+#contentflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#picflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#painflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+#commentflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#endflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#menuflex {
+    width: 100%;
+    height: 373px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-height: 18px;
+    margin-top: 40px;
+    position: absolute;
+    flex-direction: row;
+    transition: all 0.5s ease-in-out;
+}
+
+/*==========  ID Rules  ==========*/
+#header {
+    height: 700px;
+}
+
+/*==========  Class Rules  ==========*/
+.clientele {
+    width: 33%;
+}
+
+.clients {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.bane {
+    width: 100%;
+    height: 100%;
+    height: 600px;
+}
+
+.photos {
+    width: 25%;
+    height: 25%;
+}
+
+.line {
+    height: 230px;
+}
+
+.arrowhead {
+    margin-top: 200px;
+}
+
+.others {
+    width: 50%;
+    margin: 0px;
+    height: 50%;
+}
+
+.boss {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bayern {
+    width: 50%;
+    height: 50%;
+    margin: 0px;
+    margin-top: auto;
+    
+    margin-bottom: auto;  
+}
+
+.note {
+    margin: 0px;
+    width: 50%;
+    height: 50%;
+    background-color: #ffffff;
+}
+
+.inner {
+    width: 50%;
+    height: 300px;
+    font-size: 0px;
+    margin-top: 340px;
+    position: absolute;
+    background-color: transparent;
+}
+
+.learn {
+    width: 160px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #585757;
+    border-radius: 100px;
+    margin: 20px auto 0px auto;
+    font-family: var(--o-bar-font-family);
+    background: linear-gradient(180deg, #ffffff 60%,  #ffff00 0%);
+}
+
+
+/*==========  Element Rules  ==========*/
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 43px;
+    padding-top: 0px;
+}
+
+p {
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.inner p {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.clientele p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    margin: 0px;
+    width: 100%;
+    height: 700px;
+ }
+
+section {
+    width: 100%;
+    height: 100%;
+    font-size: 0px;
+    background-color: #ffffff;
+}
+
+article {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 0px 0px 10px 0px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 60px;
+    border: transparent;
+    background-color: #f8991d;
+    font-family: var(--o-par-font-family);
+}

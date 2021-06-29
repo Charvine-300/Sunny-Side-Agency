@@ -8,10 +8,10 @@ h1, h2, p {
     padding: 0px;
 }
 
-@media only screen and (max-width: 1000px) {
+
     body {
         margin: 0px;
-        background-color: #f5f5f5;
+        background-color: #ffffff;
     }
 
     #contentflex {
@@ -19,6 +19,12 @@ h1, h2, p {
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+    #commentflex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }    
 
     #picflex {
         display: flex;
@@ -62,8 +68,6 @@ h1, h2, p {
         margin-left: 320px;
         position: absolute;
     }
-
-
 
 
 
@@ -133,7 +137,7 @@ h1, h2, p {
         font-size: 20px;
         font-weight: 600;
         color: #585757;
-        margin: 20px auto 40px auto;
+        margin: 0px auto 40px auto;
         font-family: var(--o-bar-font-family);
         background: linear-gradient(180deg, #ffffff 60%,  #ffff00 0%);
     }
@@ -308,14 +312,12 @@ h1, h2, p {
     }
 
 
-
-
     /*==========  Animation and Pseudo Rules  ==========*/
     #menu:hover {
         cursor: pointer;
-    }
-
-    li:hover {
-        cursor: pointer;
-    }
 }
+
+li:hover {
+    cursor: pointer;
+}
+
