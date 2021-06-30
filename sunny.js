@@ -16,7 +16,7 @@ function setUp() {
     //Giving the menu box a maximum height for functionality to work
     menu.setAttribute("style", "max-height: 40px");
 
-    if (document.body.clientWidth >= 1024) {
+    if (document.body.clientWidth >= 1024 || window.matchMedia("(orientation: landscape)").matches) {
         bangers.removeAttribute("src", "images/mobile/image-header.jpg");
         bangers.setAttribute("src", "images/desktop/image-header.jpg");
 
