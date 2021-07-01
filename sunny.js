@@ -16,7 +16,7 @@ function setUp() {
     //Giving the menu box a maximum height for functionality to work
     menu.setAttribute("style", "max-height: 40px");
 
-    if (document.body.clientWidth >= 1024 || window.matchMedia("(orientation: landscape)").matches) {
+    if (document.body.clientWidth >= 1024) {
         bangers.removeAttribute("src", "images/mobile/image-header.jpg");
         bangers.setAttribute("src", "images/desktop/image-header.jpg");
 
@@ -58,25 +58,12 @@ function setUp() {
     console.log(self.innerWidth);
     console.log(document.body.clientWidth);
 
-    if (document.body.clientWidth > 375) {
+    if (document.body.clientWidth  >= 1024) {
         button.style.marginLeft = `${document.body.clientWidth - 55}px`;
         chan.style.marginLeft = `${document.body.clientWidth - 61}px`;
         card.style.marginLeft = `${document.body.clientWidth - 355}px`;
 
     }
-
-    else if (document.body.clientWidth < 375) {
-        button.style.marginLeft = `${document.body.clientWidth - 55}px`;
-        chan.style.marginLeft = `${document.body.clientWidth - 61}px`;
-        card.style.marginLeft = `${document.body.clientWidth - 355}px`;
-    }
-
-    else {
-        button.style.marginLeft = "320px";
-        chan.style.marginLeft = "314px";
-        card.style.marginLeft = "20px";
-    }
-
 
 }
 

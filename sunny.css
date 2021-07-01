@@ -210,6 +210,10 @@ h1, h2, p {
    
 
     /*==========  Element Rules  ==========*/
+    span {
+        font-size: 20px;
+    }
+
     img {
         width: 100%;
         height: 600px;
@@ -377,8 +381,16 @@ h1, h2, p {
     #header {
         height: 700px;
     }
+
+    #menu {
+        margin-left: 641px;
+    }
     
     /*==========  Class Rules  ==========*/
+    .learn {
+        margin-bottom: 20px;
+    }
+
     .clientele {
         width: 33%;
     }
@@ -399,13 +411,21 @@ h1, h2, p {
         width: 25%;
         height: 25%;
     }
+
+    .triangle {
+        margin-left: 635px;
+    }
+
+    .drop {
+        margin-left: 341px;
+    }
     
     .line {
-        height: 230px;
+        height: 210px;
     }
     
     .arrowhead {
-        margin-top: 200px;
+        margin-top: 180px;
     }
     
     .others {
@@ -414,15 +434,9 @@ h1, h2, p {
         height: 50%;
     }
     
-    .boss {
-        width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
     .bayern {
         width: 50%;
-        height: 50%;
+        height: fit-content;
         margin: 0px;
         margin-top: auto;
         
@@ -435,53 +449,42 @@ h1, h2, p {
         height: 50%;
         background-color: #ffffff;
     }
-    
+
     .inner {
         width: 50%;
-        height: 300px;
         font-size: 0px;
         margin-top: 340px;
         position: absolute;
+        height: fit-content;
         background-color: transparent;
-    }
-    
-    .learn {
-        width: 160px;
-        height: 30px;
-        font-size: 25px;
-        font-weight: 600;
-        color: #585757;
-        border-radius: 100px;
-        margin: 20px auto 0px auto;
-        font-family: var(--o-bar-font-family);
-        background: linear-gradient(180deg, #ffffff 60%,  #ffff00 0%);
     }
     
     
     /*==========  Element Rules  ==========*/
+    span {
+        font-size: 15px;
+    }
     h1 {
         font-size: 60px;
     }
     
     h2 {
-        font-size: 43px;
-        padding-top: 0px;
+        padding-top: 30px;
     }
     
     p {
-        font-size: 32px;
-        padding-bottom: 10px;
-    }
-    
-    .inner p {
-        font-size: 30px;
+        font-size: 17px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
     
+    .inner p {
+        padding-top: 10px;
+    }
+    
     .clientele p {
+        font-size: 15px;
         padding-top: 20px;
-        font-size: 20px;
     }
     
     img {
@@ -507,7 +510,7 @@ h1, h2, p {
         width: 100%;
         height: 100%;
         background-color: #ffffff;
-        padding: 0px 0px 10px 0px;
+        padding: 0px;
     }
     
     button {
