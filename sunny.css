@@ -383,12 +383,12 @@ h1, h2, p {
     }
 
     #menu {
-        margin-left: 641px;
+        margin-left: 610px;
     }
     
     /*==========  Class Rules  ==========*/
     .learn {
-        margin-bottom: 20px;
+        margin-bottom: 23px;
     }
 
     .clientele {
@@ -413,11 +413,11 @@ h1, h2, p {
     }
 
     .triangle {
-        margin-left: 635px;
+        margin-left: 604px;
     }
 
     .drop {
-        margin-left: 341px;
+        margin-left: 310px;
     }
     
     .line {
@@ -453,7 +453,7 @@ h1, h2, p {
     .inner {
         width: 50%;
         font-size: 0px;
-        margin-top: 340px;
+        margin-top: 360px;
         position: absolute;
         height: fit-content;
         background-color: transparent;
@@ -469,7 +469,8 @@ h1, h2, p {
     }
     
     h2 {
-        padding-top: 30px;
+        font-size: 27px;
+        padding-top: 15px;
     }
     
     p {
@@ -480,6 +481,10 @@ h1, h2, p {
     
     .inner p {
         padding-top: 10px;
+    }
+
+    .inner h2 {
+        padding: 0px;
     }
     
     .clientele p {
