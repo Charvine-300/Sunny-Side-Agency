@@ -62,8 +62,20 @@ function setUp() {
         button.style.marginLeft = `${document.body.clientWidth - 55}px`;
         chan.style.marginLeft = `${document.body.clientWidth - 61}px`;
         card.style.marginLeft = `${document.body.clientWidth - 355}px`;
-
     }
+
+    if (document.body.clientWidth  < 375) {
+        button.style.marginLeft = `${document.body.clientWidth - 55}px`;
+        chan.style.marginLeft = `${document.body.clientWidth - 61}px`;
+        card.style.marginLeft = `${document.body.clientWidth - 355}px`;
+    }
+
+    if (document.body.clientWidth  > 375) {
+        button.style.marginLeft = `${document.body.clientWidth - 55}px`;
+        chan.style.marginLeft = `${document.body.clientWidth - 61}px`;
+        card.style.marginLeft = `${document.body.clientWidth - 355}px`;
+    }
+
 
 }
 
